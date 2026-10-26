@@ -1,0 +1,11 @@
+# PyTorch CUDA 12.4 build (matches NVIDIA driver 550). 2.6.0 is the last torch release built for cu124.
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.6.0+cu124
+torchvision==0.21.0+cu124
+
+numpy
+scikit-image
+opencv-python
+matplotlib
+jupyter
+segmentation-models-pytorch==0.5.0

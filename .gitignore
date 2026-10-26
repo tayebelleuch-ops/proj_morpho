@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data (DRIVE and its archives are kept locally, not committed)
+data/*
+!data/.gitkeep
+*.zip
+
+# Model checkpoints and large outputs
+*.pt
+*.pth
+*.ckpt
+results/**/*.npy
+results/**/*.npz
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
